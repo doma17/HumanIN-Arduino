@@ -19,6 +19,10 @@ int sensorValue;
 int check = 0;
 unsigned long timeVal;
 String message = "";
+String deviceName = "TEST";
+
+
+BLEDevice::init(deviceName); 
 
 void configSensor() {
   pinMode(BUILTIN_LED, OUTPUT);
