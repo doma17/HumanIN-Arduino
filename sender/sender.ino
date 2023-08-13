@@ -21,9 +21,6 @@ unsigned long timeVal;
 String message = "";
 String deviceName = "TEST";
 
-
-BLEDevice::init(deviceName.c_str()); 
-
 void configSensor() {
   pinMode(BUILTIN_LED, OUTPUT);
   adc1_config_channel_atten(ADC1_CHANNEL_4, ADC_ATTEN_DB_11);
@@ -84,7 +81,7 @@ void setup() {
   Serial.begin(115200);
   configSensor();
 
-  BLEDevice::init("ESP32_BLE_Device");
+  BLEDevice::init(deviceName.c_str());
   pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
 
