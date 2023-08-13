@@ -129,7 +129,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     digitalWrite(RELAY_PIN, LOW);
   }
 
-  if (millis() - timeVal >= 1500 && check = 1) {
+  if (millis() - timeVal >= 1500 && check == 1) {
     check = 0;
     digitalWrite(RELAY_PIN, LOW);
   }
