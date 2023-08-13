@@ -22,7 +22,7 @@ String message = "";
 String deviceName = "TEST";
 
 
-BLEDevice::init(deviceName); 
+BLEDevice::init(deviceName.c_str()); 
 
 void configSensor() {
   pinMode(BUILTIN_LED, OUTPUT);
