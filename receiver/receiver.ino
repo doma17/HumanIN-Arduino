@@ -5,7 +5,7 @@
 #define RELAY_PIN 5
 
 const char* ssid = "G-BRAIN";
-const char* password = "gbrain";
+const char* password = "gbrain0814";
 const char* mqttServer = "broker.mqtt-dashboard.com";
 const int mqttPort = 1883;
 const char* mqttClientID = "gbrain";
