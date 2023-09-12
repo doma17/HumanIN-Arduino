@@ -6,16 +6,20 @@
 
 const char* ssid = "G-BRAIN";
 const char* password = "gbrain0814";
-const char* mqttServer = "broker.mqtt-dashboard.com";
+const char* mqttServer = "61.101.55.248";
 const int mqttPort = 1883;
-const char* mqttClientID = "gbrain";
-const String mqttTopic = "gbrain";
+
+// receiver Serial Code를 넣어주세요! ex) gbrain_GH8
+const char* mqttClientID = "deviceSerialCode";
+const char* mqttUsername = "gbrain";
+const char* mqttPassword = "gbrain";
+
+const String baseMqttTopic = "gbrain";
+
 unsigned long timeVal;
 int check = 0;
 
 ESP8266WebServer server(80);
-
-
 WiFiClient espClient;
 PubSubClient client(espClient);
 
@@ -47,10 +51,10 @@ void handleSave() {
   html += "<p>Password: " + password + "</p>";
   html += "<p>Topic: " + topic + "</p>";
   html += "</body></html>";
-  String result = mqttTopic + "/" + topic;
+  String result = baseMqttTopic + "/" + topic;
   
-  char mqttTopics[1000];
-  strcpy(mqttTopics, result.c_str());
+  char mqttTopic[1000];
+  strcpy(mqttTopic, result.c_str());
 
   server.send(200, "text/html", html);
 
@@ -64,9 +68,8 @@ void handleSave() {
   client.setServer(mqttServer, mqttPort);
   while (!client.connected()) {
     Serial.println("Connecting to MQTT Broker...");
-    if (client.connect(mqttClientID)) {
+    if (client.connect(mqttClientID, mqttUsername, mqttPassword)) {
       Serial.println("Connected to MQTT Broker");
-
     } else {
       Serial.print("Failed, rc=");
       Serial.print(client.state());
@@ -80,7 +83,7 @@ void handleSave() {
   // MQTT 메시지 수신 콜백 함수 등록
   client.setCallback(callback);
   // 주제에 대해 구독 시작
-  client.subscribe(mqttTopics);
+  client.subscribe(mqttTopic);
 }
 
 void setup() {
