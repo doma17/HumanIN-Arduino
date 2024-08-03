@@ -1,6 +1,6 @@
-# Gbrain 프로젝트
+# HumainIN 프로젝트
 
-Gbrain 프로젝트는 근전도(EMG) 데이터를 수집하고 이를 시각적으로 표시하며, MQTT 프로토콜을 통해 원격으로 전송할 수 있는 교육용 프로젝트입니다. 이 프로젝트는 두 개의 주요 아두이노 코드 파일로 구성되어 있습니다: `receiver.ino`와 `sender.ino`. 
+HumainIN 프로젝트는 근전도(EMG) 데이터를 수집하고 이를 시각적으로 표시하며, MQTT 프로토콜을 통해 원격으로 전송할 수 있는 교육용 프로젝트입니다. 이 프로젝트는 두 개의 주요 아두이노 코드 파일로 구성되어 있습니다: `receiver.ino`와 `sender.ino`. 
 
 ## 프로젝트 개요
 
@@ -55,7 +55,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ```cpp
 const char* ssid = "G-BRAIN_GH7";         /// WiFi SSID
-const char* password = "gbrain0814";      /// WiFi Password
+const char* password = "HumainIN0814";      /// WiFi Password
 const char* mqttServer = "61.101.55.94";  /// MQTT Broker IP
 const int mqttPort = 1883;                /// MQTT Port
 const char* mqttClientID = "GH7_receiver";  /// MQTT Client ID
@@ -143,7 +143,7 @@ MQTT 브로커가 필요합니다. 로컬 또는 클라우드 MQTT 브로커를 
 
 ## 결론
 
-Gbrain 프로젝트는 근전도 데이터를 실시간으로 모니터링하고 이를 원격으로 전송할 수 있는 유용한 교육용 도구입니다. 이 프로젝트를 통해 IoT 기술과 데이터 수집 및 전송 방법에 대해 배울 수 있습니다.
+HumainIN 프로젝트는 근전도 데이터를 실시간으로 모니터링하고 이를 원격으로 전송할 수 있는 유용한 교육용 도구입니다. 이 프로젝트를 통해 IoT 기술과 데이터 수집 및 전송 방법에 대해 배울 수 있습니다.
 
 ---
 이 README는 chatGPT로 작성되었습니다.
