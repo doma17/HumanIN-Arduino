@@ -85,7 +85,7 @@ class MyServerCallbacks : public BLEServerCallbacks {
 
 class MyCallbacks : public BLECharacteristicCallbacks {
   void onWrite(BLECharacteristic *pCharacteristic) {
-    std::string value = pCharacteristic->getValue();
+    String value = pCharacteristic->getValue();
 
     if (value.length() > 0) {
       Serial.println("Received data:");
@@ -93,7 +93,7 @@ class MyCallbacks : public BLECharacteristicCallbacks {
         Serial.print(value[i]);
       }
       Serial.println();
-      limit = stod(value.c_str());
+      limit = value.toDouble();
     }
   }
 };
