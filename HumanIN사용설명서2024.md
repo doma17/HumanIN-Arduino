@@ -1,7 +1,8 @@
 # HumanIN 사용설명서 2024
 
 <aside>
-💡 **About HumanIN**
+    
+## 💡 About HumanIN
 
 - **Feature**
     
@@ -21,7 +22,7 @@
 
 ## A. 구성품
 
-![1 구성품 with number.PNG](./HumanIN사용설명서2024/1_구성품_with_number.png)
+![구성품](HumanIN사용설명서2024/1_구성품_with_number.png)
 
 1. HumainIn Case
 2. Sender
@@ -41,70 +42,74 @@
 ### 1. **Sender 설정**
 
 <aside>
-ℹ️  안내사항
+    
+## ℹ️ 안내사항
 
 - EMG Pad의 접착력이 약해졌다면 교체해 주도록 합니다.
 - 센더 전원 공급을 위한 어댑터는 별도로 필요합니다.
 </aside>
 
-![2 센더.jpg](./HumanIN사용설명서2024/2_센더.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/2_센더.jpg" width="50%" height="50%"></p>
 
 1. **5pin USB cable로 sender에 전원을 공급합니다.**
 
-![3 센더.jpg](./HumanIN사용설명서2024/3_센더.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/3_센더.jpg" width="50%" height="50%"></p>
 
 2. **EMG cable과 EMG electrode pad를 결합합니다.**
 
-![4 센더.jpg](./HumanIN사용설명서2024/4_센더.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/4_센더.jpg" width="50%" height="50%"></p>
 
 3. **Sender와 EMG cable을 연결합니다.**
 
-![5 센더.jpg](./HumanIN사용설명서2024/5_센더.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/5_센더.jpg" width="50%" height="50%"></p>
 
 4. **EMG electrode pad를 위의 사진과 같이 붙입니다. 흰색 (REF)은 손등, 나머지 빨간색 (VCC)와 검정색(GND)은 하완 안쪽에 붙여줍니다.**
 
 ### 2. **Receiver 설정**
 
 <aside>
-ℹ️ 안내사항
+    
+## ℹ️ 안내사항
 
 - TENS Surface EMG Eletrode를 부착한 사람이 전기자극을 받아 근수축됩니다.
 - **해당 리시버 설정 과정에서는 TENS3000과 리시버의 전원을 켜지 않도록 합니다.**
 </aside>
 
-![6 리시버.jpg](./HumanIN사용설명서2024/6_리시버.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/6_리시버.jpg" width="50%" height="50%"></p>
 
 1. **5pin USB cable로 receiver에 전원을 공급합니다.**
 
-![7 리시버.jpg](./HumanIN사용설명서2024/7_리시버.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/7_리시버.jpg" width="50%" height="50%"></p>
 
 2. **TENS Cable에 Surface EMG Electrode를 결합합니다.**
 
-![8 리시버.jpg](./HumanIN사용설명서2024/8_리시버.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/8_리시버.jpg" width="50%" height="50%"></p>
 
 3.  **TENS Cable을 TENS 3000의 왼쪽 단자에 연결합니다.**
 
-![10 리시버.jpg](./HumanIN사용설명서2024/10_리시버.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/10_리시버.jpg" width="50%" height="50%"></p>
 
 4. **TENS Surface EMG Electrode 위의 사진과 같이 사용자의 상완과 하완에 각각 한개씩 부착합니다.**
 
-![9 리시버.jpg](./HumanIN사용설명서2024/9_리시버.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/9_리시버.jpg" width="50%" height="50%"></p>
 
 5. **TENS Cable을 Receiver에 삽입 후 동봉된 드라이버로 Receiver 상단의 나사를 조여 고정합니다.**
 
 ### 3. **TENS 설정**
 
 <aside>
-ℹ️ **안내사항**
+    
+## ℹ️ 안내사항
 
 TENS3000의 설정값은 개인에 따라 최적화 된 값이 다릅니다. **최솟값부터 천천히 Power를 올려가며** 테스트해보길 권장드립니다.
 
 </aside>
 
-![11 텐스.jpg](./HumanIN사용설명서2024/11_텐스.jpg)
+<p align="center"><img src="HumanIN사용설명서2024/11_텐스.jpg" width="50%" height="50%"></p>
 
 1. **TENS 3000에 동봉된 건전지를 삽입합니다.**
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![12 텐스.jpg](./HumanIN사용설명서2024/12_텐스.jpg)
 
 2. **TENS 3000 설정 값을 조정합니다.** 
@@ -119,6 +124,7 @@ Pulse Width = 30 - 80 μs
 
 </aside>
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![13 텐스.jpg](./HumanIN사용설명서2024/13_텐스.jpg)
 
 1. **설정 중에 전류가 공급되지 않도록 “E. 앱과 Receiver 연결” 과정까지 모두 완료된 후에  TENS Cable이 연결된 왼쪽 상단 다이얼을 돌려 세기 조절 및 전원을 켭니다.**
@@ -127,10 +133,12 @@ Pulse Width = 30 - 80 μs
 
 1. 앱의 블루투스 검색을 허용합니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![1.jpg](./HumanIN사용설명서2024/1.jpg)
 
 2. 앱의 메인 화면은 아래 사진과 같습니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![2.jpg](./HumanIN사용설명서2024/2.jpg)
 
 ## D. 앱과 Sender 연결
@@ -139,36 +147,40 @@ Pulse Width = 30 - 80 μs
 
 1. Sender의 전원을 연결한 뒤, 하단의 파란색 동그라미를 눌러 ‘Sender 연결하기’ 버튼을 누릅니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![1.png](./HumanIN사용설명서2024/1.png)
 
 2. ‘다음’ 버튼을 누릅니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![2.jpg](./HumanIN사용설명서2024/2.jpg)
 
 3. 연결할 Sender의 시리얼 넘버를 선택합니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![3.png](./HumanIN사용설명서2024/3.png)
 
 4. Sender 연결이 완료되면 아래와 같이 표시됩니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![4.jpg](./HumanIN사용설명서2024/4.jpg)
 
 ### 2. Sender 차트 확인 및 임계값 설정
 
 1. Sender  차트에 표시되는 빨간색 선은 임계값을 나타냅니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![5.jpg](./HumanIN사용설명서2024/5.jpg)
 
 2. 송신자가 팔을 움직여 임계값 이상의 신호를 발생시키면 수신자에게 전극이 전송됩니다.
     
-    
+    <p align="center"><img src="" width="50%" height="50%"></p>
     ![6.jpg](./HumanIN사용설명서2024/6.jpg)
     
 
 3. 새로운 임계값을 입력 후 ‘전송’ 버튼을 누르면 임계값을 변경할 수 있습니다. 
     
-    
-
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![7.png](./HumanIN사용설명서2024/7.png)
 
 ## E. 앱과 Receiver 연결
@@ -177,46 +189,54 @@ Pulse Width = 30 - 80 μs
 
 1. Receiver 전원을 연결한 뒤  하단의 파란색 동그라미를 눌러 ‘Receiver 연결하기’ 버튼을 누릅니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![1.png](./HumanIN사용설명서2024/1_1.png)
 
 2. ‘와이파이 설정 페이지로 이동’ 버튼을 누릅니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![2.png](./HumanIN사용설명서2024/2.png)
 
 3. 와이파이 설정창에서 Receiver에 의해 생성된 SSID에 연결합니다 (G-BRAIN_시리얼 코드).
     - 비밀번호는 `gbrain0814` 입니다.
     
-
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![3.jpg](./HumanIN사용설명서2024/3.jpg)
 
 4. 인터넷 연결 관련 안내창이 표시되면  ‘이번만 연결’ 혹은 ‘항상 연결’을 누릅니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![4.png](./HumanIN사용설명서2024/4.png)
 
 5. 와이파이 설정창에서 ‘인터넷에 연결되어 있지 않음’이라고 표시되어도 정상 상태입니다.
 6. 아래 화면 상태에서 되돌아가기 버튼을 눌러 앱 화면으로 돌아갑니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![5.png](./HumanIN사용설명서2024/5.png)
 
 ### 2. Receiver가 신호를 수신할 와이파이 연결하기
 
 1. Receiver와 연결할 와이파이 및 핫스팟 네트워크를 선택합니다. 
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![6.jpg](./HumanIN사용설명서2024/6_1.jpg)
 
 2. 선택 후 하단의 ‘다음’ 버튼을 누릅니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![7.jpg](./HumanIN사용설명서2024/7.jpg)
 
 3. 선택한 와이파이 및 핫스팟 네트워크의 비밀번호를 입력합니다.
 4. 구독할 Sender의 시리얼 번호를 입력합니다.
 5. 이후 하단의 ‘전송’ 버튼을 누릅니다. 
-    
+
+    <p align="center"><img src="" width="50%" height="50%"></p>
     ![8.png](./HumanIN사용설명서2024/8.png)
     
 
 6. Receiver 연결이 완료되면 아래와 같이 표시됩니다
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![9.jpg](HumanIN 사용설명서9f826/9.jpg)
 
 ### 3. 앱과 서버 연결하기
@@ -224,21 +244,23 @@ Pulse Width = 30 - 80 μs
 1. ‘와이파이 설정 페이지로 이동’ 버튼을 누릅니다.
 
  
-
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![10.png](./HumanIN사용설명서2024/10.png)
 
 2. 앱과 연결할 와이파이 및 핫스팟 네트워크를 선택합니다. 
 3. 아래 화면 상태에서 되돌아가기 버튼을 눌러 앱 화면으로 돌아갑니다. 
-    
+
+    <p align="center"><img src="" width="50%" height="50%"></p>
     ![11.png](./HumanIN사용설명서2024/11.png)
-    
 
 4. 앱 화면 우측 상단의 ‘MQTT 서버 재연결’ 버튼을 누릅니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![12.png](./HumanIN사용설명서2024/12.png)
 
 5. 앱과 서버가 연결되면 아래와 같이 ‘서버 연결됨’ 이 표시됩니다.
 
+<p align="center"><img src="" width="50%" height="50%"></p>
 ![13.jpg](./HumanIN사용설명서2024/13.jpg)
 
 ### 호환되는 기기 버전
