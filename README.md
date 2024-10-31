@@ -1,13 +1,14 @@
 # HumainIN 프로젝트
 
-HumainIN 프로젝트는 근전도(EMG) 데이터를 수집하고 이를 시각적으로 표시하며, MQTT 프로토콜을 통해 원격으로 전송할 수 있는 교육용 프로젝트입니다. 이 프로젝트는 두 개의 주요 아두이노 코드 파일로 구성되어 있습니다: `receiver.ino`와 `sender.ino`. 
+#### HumainIN 프로젝트는 근전도(EMG) 데이터를 수집하고 이를 시각적으로 표시하며, MQTT 프로토콜을 통해 원격으로 전송할 수 있는 교육용 프로젝트입니다. 이 프로젝트는 두 개의 주요 아두이노 코드 파일로 구성되어 있습니다: `receiver.ino`와 `sender.ino`. 
 
 <img width="983" alt="설명사진" src="https://github.com/user-attachments/assets/d7c5904a-7ed0-4992-bd4e-fefb590c38d6">
 
 ## 프로젝트 개요
 
-- **Receiver**: WiFi 네트워크에 연결하고 MQTT 브로커에 구독하며, 수신한 메시지에 따라 릴레이를 제어합니다.
-- **Sender**: BLE(Bluetooth Low Energy)를 통해 EMG 데이터를 읽고 전송합니다. 특정 조건을 충족하면 MQTT 메시지를 보냅니다.
+- ### **Receiver**: WiFi 네트워크에 연결하고 MQTT 브로커에 구독하며, 수신한 메시지에 따라 릴레이를 제어합니다.
+- ### **Sender**: BLE(Bluetooth Low Energy)를 통해 EMG 데이터를 읽고 전송합니다. 특정 조건을 충족하면 MQTT 메시지를 보냅니다.
+- ### [휴먼인 사용설명서 2024](HumanIN사용설명서2024.md)
 
 ## 하드웨어 요구사항
 
